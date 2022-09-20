@@ -281,7 +281,7 @@ input::-webkit-date-and-time-value {
         display: block;
         width: 100%;
         text-align: center;
-        margin: 10px ;
+        /* margin: 10px ; */
         /* font-size: 10px; */
     }
 
