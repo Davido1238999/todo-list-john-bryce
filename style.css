@@ -235,14 +235,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     -webkit-appearance: none;
 }
 
-input[type="date"]
-{
-    display:block;
-    -webkit-appearance: textfield;
-    -moz-appearance: textfield;
-    min-height: 1.2em;
-}
-
 input::-webkit-date-and-time-value {
     height: 1.5em;
 }
