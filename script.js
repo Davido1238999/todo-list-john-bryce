@@ -5,6 +5,7 @@ let form = document.querySelector('.form');
 let deleteBtn = document.querySelector('.delete-btn');
 let date = document.getElementById('date');
 let time = document.getElementById('time');
+
 time.min = new Date().toISOString().split("T")[0];
 
 input.addEventListener(`keyup`, function (event) {
