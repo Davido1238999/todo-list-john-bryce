@@ -229,6 +229,17 @@ lord-icon {
 .footer{
     color:var(--light-color)
 }
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+
+input::-webkit-date-and-time-value {
+    height: 1.5em;
+  }
+
 /* transitions */
 
 
