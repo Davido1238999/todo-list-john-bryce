@@ -257,8 +257,9 @@ input::-webkit-date-and-time-value {
 /* media queries  */
 @media only screen and (max-width: 550px) {
     img{
-        width: 100vw;
-        height: 70vh;
+        /* width: 100vw; */
+        /* height: 70vh; */
+        scale: 0.9;
     }
     .todo-list {
         display: block;
