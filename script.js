@@ -49,6 +49,7 @@ addBtn.addEventListener(`click`, (e) => {
         saveToLocalStorage(newTodo, endDate);
     } else {
         alert(`Please fill all fields`);
+        // console.log('תמלא הכל יחרא!');
     }
 });
 
