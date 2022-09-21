@@ -257,15 +257,15 @@ input::-webkit-date-and-time-value {
 /* media queries  */
 @media only screen and (max-width: 550px) {
     img{
-        /* width: 100vw; */
-        /* height: 70vh; */
+        width: 100vw;
+        height: 70vh;
         scale: 0.9;
     }
     .todo-list {
         display: block;
         position: absolute;
         top: 15em;
-        width: 100vw;
+        width: 85vw;
         /* flex-wrap: wrap; */
     } 
     .title {
